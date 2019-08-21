@@ -1,0 +1,21 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}</h2>
+
+{% for x in objs %}
+<h1>{{ x.title }}</h1>
+<h6>{{ x.fromuser }}</h6>
+<p>{{ x.requires }}</p>
+{% if not forloop.last %}<hr />{% endif %} 
+{% endfor %}
+{% endblock %}
+
+
+{% block scripts %}
+
+    {% load staticfiles %}
+<script src="{% static 'app/scripts/jquery.validate.min.js' %}"></script>
+
+{% endblock %}

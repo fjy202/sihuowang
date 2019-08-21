@@ -1,0 +1,17 @@
+sys
+List
+locale
+MYPY_CHECK_RUNNING
+auto_decode
+ENCODING_RE
+__file__
+__cached__
+Tuple
+codecs
+Text
+re
+__name__
+__builtins__
+BOMS
+__package__
+__spec__

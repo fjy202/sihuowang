@@ -1,0 +1,23 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}</h2>
+
+{% for x in objs %}
+{% ifequal request.user.username x.tousers %}
+<h1>{{ x.title }}</h1>
+<h6>{{ x.fromuser }}</h6>
+<p>{{ x.requires }}</p>
+{% if not forloop.last %}<hr />{% endif %} 
+{% endifequal %}
+{% endfor %}
+{% endblock %}
+
+
+{% block scripts %}
+
+    {% load staticfiles %}
+<script src="{% static 'app/scripts/jquery.validate.min.js' %}"></script>
+
+{% endblock %}

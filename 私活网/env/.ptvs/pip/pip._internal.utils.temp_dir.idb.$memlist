@@ -1,0 +1,16 @@
+tempfile
+os
+AdjacentTempDirectory
+logger
+__file__
+itertools
+__package__
+__cached__
+absolute_import
+logging
+errno
+__name__
+TempDirectory
+__builtins__
+rmtree
+__spec__

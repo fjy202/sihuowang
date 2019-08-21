@@ -1,0 +1,15 @@
+CODING_RE
+six
+unicodedata
+__spec__
+__file__
+re
+__name__
+detect_encoding
+try_encode
+filesys_decode
+__builtins__
+__cached__
+decompose
+sys
+__package__

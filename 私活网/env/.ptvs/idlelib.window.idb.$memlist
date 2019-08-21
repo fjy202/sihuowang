@@ -1,0 +1,16 @@
+sys
+add_windows_to_menu
+registry
+ListedToplevel
+__name__
+register_callback
+__builtins__
+__file__
+__cached__
+__package__
+Toplevel
+WindowList
+unregister_callback
+main
+TclError
+__spec__
